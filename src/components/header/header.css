@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+
+    background: linear-gradient(90deg, #106466 79.69%, #D1E8E2 100%);
+    border-radius: 10px;
+    padding-right: 5px;
+    height: 6%;
+}
+
+.header > button {
+    background: #CBA682;
+    border-radius: 10px;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    margin: 1%;
+
+    font-weight: 900;
+    font-size: 15px;
+
+    color: #000000;
+}
+
+.header > button:hover {
+    background: #FFCB9B;
+}
