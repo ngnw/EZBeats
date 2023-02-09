@@ -5,7 +5,7 @@ function AudioSelector() {
   return (
     <div className="audio-selector">
       <div className='scroll'>
-        <button id='1'></button>
+        <button id='1'>808 Bass A Overdrive</button>
         <button id='2'></button>
         <button id='3'></button>
         <button id='4'></button>
