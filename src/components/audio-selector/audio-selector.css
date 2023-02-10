@@ -28,6 +28,8 @@
     width: 90%;
     height: 15%;
     margin: 1%;
+
+    font-weight: 900;
 }
 
 .scroll > button:hover {
