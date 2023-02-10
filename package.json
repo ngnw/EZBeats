@@ -14,6 +14,7 @@
     "@types/node": "^16.11.21",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "browser": "^0.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.0",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
