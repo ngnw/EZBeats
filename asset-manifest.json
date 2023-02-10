@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/EZBeats/static/css/main.e0766d2c.css",
-    "main.js": "/EZBeats/static/js/main.f2dca20f.js",
+    "main.js": "/EZBeats/static/js/main.050a2f00.js",
     "static/js/787.edd59a96.chunk.js": "/EZBeats/static/js/787.edd59a96.chunk.js",
     "static/media/808 Bass A Overdrive .wav": "/EZBeats/static/media/808 Bass A Overdrive .60c81358f6d3cb0c7bf8.wav",
+    "static/media/Kick 002 Knock.wav": "/EZBeats/static/media/Kick 002 Knock.a4ffab12d82c0b25e79a.wav",
+    "static/media/HiHat Closed 001 Widened.wav": "/EZBeats/static/media/HiHat Closed 001 Widened.e462a5d33cf93e637b1d.wav",
+    "static/media/Cymbal Ride 001 Smooth.wav": "/EZBeats/static/media/Cymbal Ride 001 Smooth.3736cec29618a1a66a6b.wav",
+    "static/media/Chant Noise.wav": "/EZBeats/static/media/Chant Noise.ef6c1fb41ddb1d06a5ab.wav",
+    "static/media/Clap 001.wav": "/EZBeats/static/media/Clap 001.53c0572bb3b7ae3f6139.wav",
+    "static/media/Snare 001.wav": "/EZBeats/static/media/Snare 001.b4cbef3e3727c399a576.wav",
+    "static/media/Zap 001.wav": "/EZBeats/static/media/Zap 001.df82faa148ffae960c7f.wav",
     "index.html": "/EZBeats/index.html",
     "main.e0766d2c.css.map": "/EZBeats/static/css/main.e0766d2c.css.map",
-    "main.f2dca20f.js.map": "/EZBeats/static/js/main.f2dca20f.js.map",
+    "main.050a2f00.js.map": "/EZBeats/static/js/main.050a2f00.js.map",
     "787.edd59a96.chunk.js.map": "/EZBeats/static/js/787.edd59a96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0766d2c.css",
-    "static/js/main.f2dca20f.js"
+    "static/js/main.050a2f00.js"
   ]
 }
