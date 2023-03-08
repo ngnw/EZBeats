@@ -7,6 +7,7 @@ import cymbals from '../../assets/TriSamples - 808 Trapstep Pack Vol 1/Hats & Cy
 import kick from '../../assets/TriSamples - 808 Trapstep Pack Vol 1/Kick/Kick 002 Knock.wav';
 import clap from '../../assets/TriSamples - 808 Trapstep Pack Vol 1/Snares & Claps/Clap 001.wav';
 import snare from '../../assets/TriSamples - 808 Trapstep Pack Vol 1/Snares & Claps/Snare 001.wav';
+import { epg } from '../timeline/helpers/epg';
 import './midi-board.css';
 
 function MidiBoard() {
@@ -14,6 +15,11 @@ function MidiBoard() {
   const one = () => {
     let audio = new Audio(bass)
     audio.play()
+    const boxbass = [{"id":"0","since":"2022-10-18T01:50:00","till":"2022-10-18T02:55:00","channelUuid":"8"}]
+    console.log("here")
+    console.log(epg.length)
+    epg.push(boxbass[0])
+    console.log(epg)
   }
 
   const two = () => {
