@@ -1,12 +1,12 @@
 .timeline {
     background: #2C3532;
     border-radius: 10px;
-    height: 40%;
-    margin-top: .5%;
+    height: 215px;
+    margin-top: 5px;
 }
 
-.css-1olpj1k-Box {
-    visibility: hidden;
+.css-8k07yw-Box {
+    display: none;
     height: 25px;
 }
 
@@ -15,9 +15,15 @@
 }
 
 .css-1b2hxk0-TimelineWrapper {
-    height: 20px;
+    height: 17px;
 }
 
 .css-rx749l-ProgramStack {
     display: none;
+}
+
+.css-oa3kic-ProgramBox {
+    padding: revert !important;
+    height: 17px !important;
+
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './timeline.css';
-import { Epg, Layout } from "planby";
+import { Epg, Layout } from "@nessprim/planby";
 
 // Import hooks
 import { useApp } from "./useApp";

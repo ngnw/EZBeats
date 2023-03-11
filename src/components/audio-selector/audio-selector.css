@@ -1,8 +1,8 @@
 .audio-selector {
     background: #2C3532;
     border-radius: 10px;
-    margin-top: .5%;
-    height: 40%;
+    margin-top: 5px;
+    height: 220px;
     width: 49.5%;
     float: right;
     display: flex;

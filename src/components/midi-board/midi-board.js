@@ -16,10 +16,7 @@ function MidiBoard() {
     let audio = new Audio(bass)
     audio.play()
     const boxbass = [{"id":"0","since":"2022-10-18T01:50:00","till":"2022-10-18T02:55:00","channelUuid":"8"}]
-    console.log("here")
-    console.log(epg.length)
     epg.push(boxbass[0])
-    console.log(epg)
   }
 
   const two = () => {

@@ -7,7 +7,7 @@ import {
   ProgramText,
   ProgramImage,
   useProgram
-} from "planby";
+} from "@nessprim/planby";
 
 export const ProgramItem = ({ program, ...rest }) => {
   const {

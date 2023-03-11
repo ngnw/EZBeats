@@ -2,7 +2,7 @@ import React from "react";
 
 import { fetchChannels, fetchEpg } from "./helpers";
 
-import { useEpg } from "planby";
+import { useEpg } from "@nessprim/planby";
 
 // Import theme
 import { theme } from "./helpers/theme";
@@ -18,7 +18,7 @@ export function useApp() {
   const { getEpgProps, getLayoutProps } = useEpg({
     channels: channelsData,
     epg: epgData,
-    dayWidth: 7200,
+    dayWidth: 6500,
     sidebarWidth: 100,
     itemHeight: 20,
     isSidebar: true,
@@ -27,6 +27,7 @@ export function useApp() {
     startDate: "2022-10-18T00:00:00",
     endDate: "2022-10-18T24:00:00",
     isBaseTimeFormat: true,
+    liveRefreshTime: 10,
     theme
   });
 

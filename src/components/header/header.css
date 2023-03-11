@@ -7,7 +7,7 @@
     background: linear-gradient(90deg, #106466 79.69%, #D1E8E2 100%);
     border-radius: 10px;
     padding-right: 5px;
-    height: 6%;
+    height: 30px;
 }
 
 .header > button {
@@ -17,7 +17,7 @@
     width: fit-content;
     height: fit-content;
     margin: 1%;
-
+    display: none;
     font-weight: 900;
     font-size: 15px;
 

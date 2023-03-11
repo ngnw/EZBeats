@@ -1,8 +1,8 @@
 .track-status {
     background: #2C3532;
     border-radius: 10px;
-    height: 10%;
-    margin-top: .5%;
+    height: 40px;
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -23,8 +23,8 @@
 }
 
 .track-status > button > img {
-    width: 30%;
-    height: 50%;
+    width: 15px;
+    height: 15px;
 }
 
 .track-status > #play {
