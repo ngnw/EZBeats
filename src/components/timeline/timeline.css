@@ -6,81 +6,91 @@
     overflow: hidden;
 }
 
-.css-8k07yw-Box {
+.css-8k07yw-Box , .css-1e6m9yh {
     display: none !important;
 }
 
-div[class*="ProgramBox"] {
+div[class*="ProgramBox"] , .css-omuq6 {
     padding: revert !important;
 }
 
-div[class*="ProgramContent"] {
+div[class*="ProgramContent"] , .css-irkfuk {
     background: blue !important;
     border-radius: 4px !important;
     padding: 0px !important;
     height: 17px !important;
 }
 
-div[class*="ChannelBox"] {
+div[class*="ChannelBox"],
+.css-v6g33j,
+.css-c7tn2t,
+.css-127udym,
+.css-j9jxki,
+.css-11n3k03,
+.css-1pdd8cq,
+.css-nswk9b,
+.css-2i5ui8,
+.css-y9aqu6
+{
     border-radius: 3px !important;
     height: 17px !important;
 }
 
-div[class*="ChannelBox"]:first-child {
+div[class*="ChannelBox"]:first-child , .css-v6g33j {
     background-color: #DC0385 !important;
     /* top: 0px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(2) {
+div[class*="ChannelBox"]:nth-child(2) , .css-c7tn2t {
     background-color: #FFCD33 !important;
     /* top: 20px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(3) {
+div[class*="ChannelBox"]:nth-child(3) , .css-127udym {
     background-color: #663399 !important;
     /* top: 40px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(4) {
+div[class*="ChannelBox"]:nth-child(4) , .css-j9jxki {
     background-color: #02CED2 !important;
     /* top: 60px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(5) {
+div[class*="ChannelBox"]:nth-child(5)  , .css-11n3k03 {
     background-color: #FF5C5A !important;
     /* top: 80px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(6) {
+div[class*="ChannelBox"]:nth-child(6) , .css-1pdd8cq {
     background-color: #8AC741 !important;
     /* top: 100px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(7) {
+div[class*="ChannelBox"]:nth-child(7) , .css-nswk9b {
     background-color: #EC2124 !important;
     /* top: 120px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(8) {
+div[class*="ChannelBox"]:nth-child(8) , .css-2i5ui8 {
     background-color:blue !important;
     /* top: 140px !important; */
 }
 
-div[class*="ChannelBox"]:nth-child(9) {
+div[class*="ChannelBox"]:nth-child(9) , .css-y9aqu6 {
     background-color: #FF9A33 !important;
     /* top: 160px !important; */
 }
 
-div[class*="TimelineDividers"] {
+div[class*="TimelineDividers"] , .css-1fbovww {
     align-items: start !important;
     margin-top: 4px !important;
 }
 
-span[class*="TimelineTime"] {
+span[class*="TimelineTime"] , .css-1bivfj5 {
     top: 0px !important;
     left: 3px !important;
 }
 
-div[class*="TimelineWrapper"] {
+div[class*="TimelineWrapper"] , .css-1v2k8r7 {
     height: 17px !important;
 }
