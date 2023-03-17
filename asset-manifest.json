@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EZBeats/static/css/main.af13dac8.css",
+    "main.css": "/EZBeats/static/css/main.475198e1.css",
     "main.js": "/EZBeats/static/js/main.77447b31.js",
     "static/js/787.28cb0dcd.chunk.js": "/EZBeats/static/js/787.28cb0dcd.chunk.js",
     "static/media/808 Bass A Overdrive .wav": "/EZBeats/static/media/808 Bass A Overdrive .60c81358f6d3cb0c7bf8.wav",
@@ -12,12 +12,12 @@
     "static/media/Snare 001.wav": "/EZBeats/static/media/Snare 001.b4cbef3e3727c399a576.wav",
     "static/media/Zap 001.wav": "/EZBeats/static/media/Zap 001.df82faa148ffae960c7f.wav",
     "index.html": "/EZBeats/index.html",
-    "main.af13dac8.css.map": "/EZBeats/static/css/main.af13dac8.css.map",
+    "main.475198e1.css.map": "/EZBeats/static/css/main.475198e1.css.map",
     "main.77447b31.js.map": "/EZBeats/static/js/main.77447b31.js.map",
     "787.28cb0dcd.chunk.js.map": "/EZBeats/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af13dac8.css",
+    "static/css/main.475198e1.css",
     "static/js/main.77447b31.js"
   ]
 }
