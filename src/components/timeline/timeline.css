@@ -1,29 +1,86 @@
-.timeline {
+.timelinet {
     background: #2C3532;
     border-radius: 10px;
     height: 215px;
     margin-top: 5px;
+    overflow: hidden;
 }
 
 .css-8k07yw-Box {
-    display: none;
-    height: 25px;
+    display: none !important;
 }
 
-.css-1vqrqlf-Content {
-    position: unset;
-}
-
-.css-1b2hxk0-TimelineWrapper {
-    height: 17px;
-}
-
-.css-rx749l-ProgramStack {
-    display: none;
-}
-
-.css-oa3kic-ProgramBox {
+div[class*="ProgramBox"] {
     padding: revert !important;
-    height: 17px !important;
+}
 
+div[class*="ProgramContent"] {
+    background: blue !important;
+    border-radius: 4px !important;
+    padding: 0px !important;
+    height: 17px !important;
+}
+
+div[class*="ChannelBox"] {
+    border-radius: 3px !important;
+    height: 17px !important;
+}
+
+div[class*="ChannelBox"]:first-child {
+    background-color: #DC0385 !important;
+    /* top: 0px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(2) {
+    background-color: #FFCD33 !important;
+    /* top: 20px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(3) {
+    background-color: #663399 !important;
+    /* top: 40px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(4) {
+    background-color: #02CED2 !important;
+    /* top: 60px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(5) {
+    background-color: #FF5C5A !important;
+    /* top: 80px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(6) {
+    background-color: #8AC741 !important;
+    /* top: 100px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(7) {
+    background-color: #EC2124 !important;
+    /* top: 120px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(8) {
+    background-color:blue !important;
+    /* top: 140px !important; */
+}
+
+div[class*="ChannelBox"]:nth-child(9) {
+    background-color: #FF9A33 !important;
+    /* top: 160px !important; */
+}
+
+div[class*="TimelineDividers"] {
+    align-items: start !important;
+    margin-top: 4px !important;
+}
+
+span[class*="TimelineTime"] {
+    top: 0px !important;
+    left: 3px !important;
+}
+
+div[class*="TimelineWrapper"] {
+    height: 17px !important;
 }
