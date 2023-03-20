@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EZBeats/static/css/main.efa722de.css",
+    "main.css": "/EZBeats/static/css/main.b28671c0.css",
     "main.js": "/EZBeats/static/js/main.a8b71621.js",
     "static/js/787.016dd43c.chunk.js": "/EZBeats/static/js/787.016dd43c.chunk.js",
     "static/media/808 Bass A Knaw.wav": "/EZBeats/static/media/808 Bass A Knaw.739e1e2ab03b64545212.wav",
@@ -22,12 +22,12 @@
     "static/media/Zap 001.wav": "/EZBeats/static/media/Zap 001.df82faa148ffae960c7f.wav",
     "static/media/Chant Hey 002.wav": "/EZBeats/static/media/Chant Hey 002.be254c56a0fc9e113b6b.wav",
     "index.html": "/EZBeats/index.html",
-    "main.efa722de.css.map": "/EZBeats/static/css/main.efa722de.css.map",
+    "main.b28671c0.css.map": "/EZBeats/static/css/main.b28671c0.css.map",
     "main.a8b71621.js.map": "/EZBeats/static/js/main.a8b71621.js.map",
     "787.016dd43c.chunk.js.map": "/EZBeats/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efa722de.css",
+    "static/css/main.b28671c0.css",
     "static/js/main.a8b71621.js"
   ]
 }
