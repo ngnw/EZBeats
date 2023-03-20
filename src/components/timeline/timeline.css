@@ -6,6 +6,19 @@
     overflow: hidden;
 }
 
+canvas {
+    position: absolute;
+    z-index: 20;
+    width: 861px;
+    height: 178px;
+    top: 59px;
+    left: 108px;
+}
+
+.planby , .css-1cel7qj {
+    padding: 0px !important;
+}
+
 .css-8k07yw-Box , .css-1e6m9yh {
     display: none !important;
 }
@@ -15,7 +28,6 @@ div[class*="ProgramBox"] , .css-omuq6 {
 }
 
 div[class*="ProgramContent"] , .css-irkfuk {
-    background: blue !important;
     border-radius: 4px !important;
     padding: 0px !important;
     height: 17px !important;
@@ -34,51 +46,45 @@ div[class*="ChannelBox"],
 {
     border-radius: 3px !important;
     height: 17px !important;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 div[class*="ChannelBox"]:first-child , .css-v6g33j {
     background-color: #DC0385 !important;
-    /* top: 0px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(2) , .css-c7tn2t {
     background-color: #FFCD33 !important;
-    /* top: 20px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(3) , .css-127udym {
     background-color: #663399 !important;
-    /* top: 40px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(4) , .css-j9jxki {
     background-color: #02CED2 !important;
-    /* top: 60px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(5)  , .css-11n3k03 {
     background-color: #FF5C5A !important;
-    /* top: 80px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(6) , .css-1pdd8cq {
     background-color: #8AC741 !important;
-    /* top: 100px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(7) , .css-nswk9b {
     background-color: #EC2124 !important;
-    /* top: 120px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(8) , .css-2i5ui8 {
     background-color:blue !important;
-    /* top: 140px !important; */
 }
 
 div[class*="ChannelBox"]:nth-child(9) , .css-y9aqu6 {
     background-color: #FF9A33 !important;
-    /* top: 160px !important; */
 }
 
 div[class*="TimelineDividers"] , .css-1fbovww {
@@ -91,6 +97,7 @@ span[class*="TimelineTime"] , .css-1bivfj5 {
     left: 3px !important;
 }
 
-div[class*="TimelineWrapper"] , .css-1v2k8r7 {
+div[class*="TimelineWrapper"] , .css-shx4ya {
     height: 17px !important;
+    position: sticky !important;
 }

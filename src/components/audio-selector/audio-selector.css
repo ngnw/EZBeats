@@ -33,7 +33,7 @@
 }
 
 .scroll > button:hover {
-    background: #FFCB9B;
+    background: #FFCB9B !important;
 }
 
 /* width */

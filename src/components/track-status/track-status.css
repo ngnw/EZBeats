@@ -33,9 +33,9 @@
 
 
 .track-status > button:hover {
-    background: #FFCB9B;
+    background: #FFCB9B !important;
 }
 
 .track-status > #play:hover {
-    background: #FFCB9B;
+    background: #FFCB9B !important;
 }

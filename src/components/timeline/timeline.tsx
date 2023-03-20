@@ -7,11 +7,6 @@ import {
   Layout,
   ProgramBox,
   ProgramContent,
-  ProgramFlex,
-  ProgramStack,
-  ProgramTitle,
-  ProgramText,
-  ProgramImage,
   useProgram,
   Program,
   ProgramItem,
@@ -27,12 +22,14 @@ import {
   TimelineDivider,
   TimelineDividers,
   useTimeline,
+  Line,
+  CurrentTimeBox,
+  CurrentTimeContent,
 } from "@nessprim/planby";
 
-export function CustomTimeline(props) {
+function CustomTimeline(props: Timeline) {
   const { time, dividers, getTime, getTimelineProps, getCurrentTimeProps } =
      useTimeline(props);
- 
    const {
      isToday,
      isBaseTimeFormat,
@@ -43,7 +40,7 @@ export function CustomTimeline(props) {
  
    const { hourWidth } = props;
  
-   const renderTime = (item, index) => {
+   const renderTime = (item: string | number, index: number) => {
      const { isNewDay, time } = getTime(item);
      const position = { left: hourWidth * index, width: hourWidth };
      const isVisible = isTimelineVisible(position);
@@ -66,7 +63,7 @@ export function CustomTimeline(props) {
      );
    };
  
-  const renderDividers = (isNewDay) =>
+  const renderDividers = (isNewDay: boolean) =>
      dividers.map((_, index) => (
        <TimelineDivider key={index} isNewDay={isNewDay} width={hourWidth} />
      ));
@@ -79,60 +76,80 @@ export function CustomTimeline(props) {
    );
  }
 
-const CustomChannelItem = ({ channel }) => {
-  const { position, logo } = channel;
+function CustomChannelItem({ channel }: ChannelItem) {
+  const { position } = channel;
   return (
     <ChannelBox {...position}/>
   );
-};
+}
 
-const CustomProgramItem = ({ program,...rest }) => {
+function CustomProgramItem({program,...rest }: ProgramItem) {
   const { styles, formatTime, isLive, isMinWidth } = useProgram({ program,...rest });
-
   const { data } = program;
-  const { since, till } = data;
-
-  const sinceTime = formatTime(since);
-  const tillTime = formatTime(till);
+  const { color } = data;
 
   return (
     <ProgramBox width={styles.width} style={styles.position}>
       <ProgramContent
         width={styles.width}
         isLive={isLive}
+        style={{background: color}}
       >
       </ProgramContent>
     </ProgramBox>
   );
-};
+}
 
+function CustomLine({ styles }: Line) {
+  return (
+    <div
+      style={{
+        ...styles.position,
+        background: "red",
+        pointerEvents: "auto",
+      }}
+    />
+  );
+}
 
+function CustomCurrentTime(props: CurrentTime) {
+  const { isVerticalMode, isRTL, isBaseTimeFormat } = props;
+  const { time, styles } = props;
+
+  return (
+    <CurrentTimeBox {...styles.position}>
+      <CurrentTimeContent
+        isVerticalMode={isVerticalMode}
+        isBaseTimeFormat={isBaseTimeFormat}
+        isRTL={isRTL}
+      >
+        {time}
+      </CurrentTimeContent>
+    </CurrentTimeBox>
+  );
+}
 
 function TimelineT() {
-
-  console.log(epg)
-
+  
   const {
     getEpgProps,
-    getLayoutProps,
-    onScrollToNow,
-    onScrollLeft,
-    onScrollRight,
+    getLayoutProps
   } = useEpg({
-    epg,
     channels,
+    epg,
     startDate: '2022-02-02T00:00:00',
-    endDate: '2022-02-02T23:00:00',
+    endDate: '2022-02-02T05:00:00',
     itemHeight: 20,
     sidebarWidth: 100,
     isLine: true,
-    isCurrentTime: true
+    isCurrentTime: true,
+    dayWidth: 1500
   });
 
   return (
     <div className="timelinet">
       <div style={{ height: 'inherit'}}>
-        <Epg {...getEpgProps()} style={{padding: "0px"}}>
+        <Epg {...getEpgProps()}>
           <Layout
             {...getLayoutProps()}
             renderProgram={({ program,...rest }) => (
@@ -142,6 +159,7 @@ function TimelineT() {
               <CustomChannelItem key={channel.uuid} channel={channel} {...rest} />
             )}
             renderTimeline={(props) => <CustomTimeline {...props} />}
+            renderLine={(props) => <CustomLine {...props} />}
           />
         </Epg>
       </div>
